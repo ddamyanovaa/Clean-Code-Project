@@ -1,0 +1,29 @@
+<!--
+*** Project created by Dimitrina Damyanova, 81399 ***
+*** Daily Planner ***
+*** Provides adding new activities, closing existing activities, check already executed activities. ***
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div id="myPlannerHeader" class="header">
+            <h2>Daily Planner</h2>
+            <input type="text" id="addNewActivity" placeholder="Title...">
+            <span onclick="addNewActivity()" class="addBtn">Add new activity</span>
+          </div>
+          
+          <ul id="listOfActivities">
+            <li>Go to the gym</li>
+            <li class="checked">Do the laundry</li>
+            <li>Wash the car</li>
+            <li>Call grandma</li>
+            <li>Go to the shop</li>
+            <li>Make dinner</li>
+          </ul>
+    </body>
+    <script src="script.js"></script>
+</html>
